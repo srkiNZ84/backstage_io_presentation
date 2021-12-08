@@ -10,15 +10,115 @@
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/black.css">
 
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
+        <section>
+          <h1>backstage.io</h1>
+          <h2>&</h2>
+          <h2>introductions</h2>
+        </section>
+        <section>
+          <h2>Overview</h2>
+          <ul>
+            <li>What is Backstage?</li>
+            <li>What problems does it solve?</li>
+            <ul>
+              <li>Discovery</li>
+              <li>Productivity</li>
+              <li>Standards</li>
+            </ul>
+            <li>Demo</li>
+            <li>What's on the roadmap?</li>
+            <li>Current issues</li>
+            <li>Alternatives</li>
+            <li>Questions and discussion</li>
+          </ul>
+        </section>
+				<section>
+          <h2>What is Backstage?</h2>
+          <ul>
+            <li>An open platform for building developer portals!</li>
+          <ul>
+        </section>
+				<section>
+          <section>
+            <h2>What problems does it solve?</h2>
+            <p>Despite being quite hard to describe in terms of being able to fit into an existing product category, the system does indeed solve very real and very recognisable problems for organizations. Rather than trying to explain what "it is", I find it more useful to describe what problems it solves and how.</p>
+          </section>
+          <section>
+            <h2>discovery - you don't want to be the map!</h2>
+            <img src="images/the-map.jpeg" />
+          </section>
+          <section>
+            <h2>discovery - so many questions</h2>
+            <ul>
+              <li>How do I get a new repository/build?</li>
+              <li>Where is the data I need for my service?</li>
+              <li>How do I access the data I need?</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Discovery</h2>
+             <ul>
+              <li>Software Catalog (alpha)</li>
+              <li>TechDocs (beta)</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Productivity - as you grow so does complexity</h2>
+            <ul>
+              <li>Life is easy with a single development team</li>
+            </ul>
+          </section>
+         <section>
+            <h2>Productivity</h2>
+            <ul>
+              <li>Software Templates (beta)</li>
+            </ul>
+          </section>
+            <section>
+            <h2>Standards</h2>
+            <ul>
+              <li>Kubernetes</li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <h2>Demo Time!</h2>
+        </section>
+        <section>
+          <h2>What's on the roadmap?</h2>
+        </section>
+        <section>
+          <h2>Current issues</h2>
+          <ul>
+            <li>No support for things other than Kubernetes</li>
+            <li>Build/compile it yourself and create your own images</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Alternatives</h2>
+          <ul>
+            <li><a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository">GitHub Template repositories</a></li>
+          </ul>
+        </section>
+      <section>
+          <h2>Questions and discussion, house take</h2>
+        </section>
+		</div>
 		</div>
 
 		<script src="dist/reveal.js"></script>
