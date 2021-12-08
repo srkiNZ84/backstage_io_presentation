@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Introduction to backstage.io</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
@@ -25,11 +25,13 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
+
         <section>
           <h1>backstage.io</h1>
           <h2>&</h2>
           <h2>introductions</h2>
         </section>
+
         <section>
           <h2>Overview</h2>
           <ul>
@@ -47,72 +49,139 @@
             <li>Questions and discussion</li>
           </ul>
         </section>
+
 				<section>
           <h2>What is Backstage?</h2>
           <ul>
             <li>An open platform for building developer portals!</li>
+            <li class="fragment">Software Catalog</li>
+            <li class="fragment">Software Templates</li>
+            <li class="fragment">TechDocs</li>
+            <li class="fragment">Kubernetes</li>
+            <li class="fragment">Plugins</li>
           <ul>
         </section>
+
 				<section>
           <section>
             <h2>What problems does it solve?</h2>
-            <p>Despite being quite hard to describe in terms of being able to fit into an existing product category, the system does indeed solve very real and very recognisable problems for organizations. Rather than trying to explain what "it is", I find it more useful to describe what problems it solves and how.</p>
+            <ul>
+              <li class="fragment">quite hard to describe in terms of being able to fit into an existing product category</li>
+              <li class="fragment">does indeed solve very real and very recognisable problems for organizations</li>
+              <li class="fragment">Rather than trying to explain what "it is", more useful to describe what problems it solves and how.</li>
           </section>
+
           <section>
-            <h2>discovery - you don't want to be the map!</h2>
+            <h2>Discovery - you don't want to be the map!</h2>
             <img src="images/the-map.jpeg" />
           </section>
+
           <section>
-            <h2>discovery - so many questions</h2>
+            <h2>Discovery - so many questions</h2>
             <ul>
-              <li>How do I get a new repository/build?</li>
-              <li>Where is the data I need for my service?</li>
-              <li>How do I access the data I need?</li>
+              <li class="fragment">How do I get a new repository/build?</li>
+              <li class="fragment">Where is the data I need for my service?</li>
+              <li class="fragment">How do I access the data I need?</li>
             </ul>
           </section>
+
           <section>
             <h2>Discovery</h2>
              <ul>
-              <li>Software Catalog (alpha)</li>
-              <li>TechDocs (beta)</li>
+              <li class="fragment">Software Catalog (alpha)</li>
+              <li class="fragment">TechDocs (beta)</li>
             </ul>
           </section>
+
           <section>
             <h2>Productivity - as you grow so does complexity</h2>
             <ul>
-              <li>Life is easy with a single development team</li>
+              <li class="fragment">Life is easy with a single development team</li>
+              <li class="fragment">Harder to make things easy to ship with many teams</li>
+              <li class="fragment">Harder to deploy when you have many technologies</li>
+              <li class="fragment">Harder to onboard users</li>
             </ul>
           </section>
-         <section>
+
+          <section>
+            <h2>Productivity - example questions</h2>
+            <ul>
+              <li class="fragment">How does a dev get productive on Day 1??</li>
+              <li class="fragment">How do we make it easy to create new services?</li>
+              <li class="fragment">How to we make it easy for a development team to see all the services they own?</li>
+            </ul>
+          </section>
+
+          <section>
             <h2>Productivity</h2>
             <ul>
-              <li>Software Templates (beta)</li>
+              <li>Software Templates</li>
+              <img src="images/backstage_software_templates.png" />
             </ul>
           </section>
-            <section>
+
+          <section>
+            <h2>Productivity</h2>
+            <ul>
+              <li>TechDocs</li>
+              <li class="fragment">Automatic docs site creation</li>
+              <li class="fragment">Documentation in same repository as code</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Standards</h2>
+            <ul>
+              <li class="fragment">How do we ensure software has owners?</li>
+              <li class="fragment">How do we deal with cross cutting concerns?</li>
+            </ul>
+          </section>
+
+          <section>
             <h2>Standards</h2>
             <ul>
               <li>Kubernetes</li>
+              <li class="fragment">Dashboards are focused on "service owner" POV rather than "cluster admin"</li>
+              <img src="images/backstage_service_dashboard.png" />
             </ul>
           </section>
+
+          <section>
+            <h2>Standards</h2>
+            <ul>
+              <li>Kubernetes</li>
+              <li class="fragment">Can add plugins for things like unit test coverage</li>
+              <li class="fragment">Add plugins for auto visualisation tools like Grafana</li>
+            </ul>
+          </section>
+
         </section>
+
         <section>
           <h2>Demo Time!</h2>
         </section>
+
         <section>
           <h2>What's on the roadmap?</h2>
+          <a href="https://backstage.io/docs/overview/roadmap">Roadmap</a>
         </section>
+
         <section>
           <h2>Current issues</h2>
           <ul>
-            <li>No support for things other than Kubernetes</li>
-            <li>Build/compile it yourself and create your own images</li>
+            <li class="fragment">No support for things other than Kubernetes</li>
+            <li class="fragment">Build/compile it yourself and create your own images</li>
+            <li class="fragment">Everything's a plugin!</li>
+            <li class="fragment">Need someone looking after this that knows K8s, Docker, programming/SDLC etc...</li>
           </ul>
         </section>
+
         <section>
           <h2>Alternatives</h2>
           <ul>
             <li><a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository">GitHub Template repositories</a></li>
+            <li>For Software Catalog, there's no end of products</li>
+            <li>Likewise for TechDocs</li>
           </ul>
         </section>
       <section>
